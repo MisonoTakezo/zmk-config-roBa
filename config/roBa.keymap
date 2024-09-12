@@ -81,7 +81,7 @@
             bindings = <
 &none    &none           &kp UP_ARROW    &none            &none                              &kp F1          &kp F2    &kp RG(RS(RIGHT_ARROW))  &kp F4                 &kp F5
 &kp ESC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LA(V)  &none        &trans     &kp F6          &mkp MB1  &kp RG(RS(DOWN_ARROW))   &mkp MB2               &kp F10
-&none    &none           &none           &mkp MB1         &mkp MB2   &kp LA(Z)    &trans     &trans          &trans    &kp RG(LEFT_BRACKET)     &kp RG(RIGHT_BRACKET)  &kp F11
+&none    &none           &none           &mkp MB1         &mkp MB2   &kp LA(Z)    &trans     &trans          &trans    &kp RG(LEFT_BRACKET)     &kp RG(RIGHT_BRACKET)  &kp LS(LG(NUMBER_2))
 &none    &none           &none           &trans           &trans     &trans       &kp LANG2  &kp LANGUAGE_1                                                            &kp F12
             >;
         };
