@@ -79,10 +79,10 @@
 
         FUNCTION {
             bindings = <
-&none    &none           &kp UP_ARROW    &none            &none                              &trans          &trans    &trans                &kp LS(LG(NUMBER_4))   &kp LS(LG(NUMBER_5))
-&kp ESC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LA(V)  &none        &trans     &mkp MB2        &mkp MB1  &trans                &trans                 &trans
-&none    &none           &none           &mkp MB1         &mkp MB2   &kp LA(Z)    &trans     &trans          &trans    &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp LS(LG(NUMBER_2))
-&none    &bt BT_PRV      &bt BT_NXT      &trans           &trans     &trans       &kp LANG2  &kp LANGUAGE_1                                                         &kp LG(LS(NUMBER_2))
+&none         &none           &kp UP_ARROW    &none            &none                              &trans          &trans    &trans                &kp LS(LG(NUMBER_4))   &kp LS(LG(NUMBER_5))
+&kp ESC       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LA(V)  &none        &trans     &mkp MB2        &mkp MB1  &trans                &trans                 &trans
+&none         &none           &none           &mkp MB1         &mkp MB2   &kp LA(Z)    &trans     &trans          &trans    &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp LS(LG(NUMBER_2))
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &trans           &trans     &trans       &kp LANG2  &kp LANGUAGE_1                                                         &kp LG(LS(NUMBER_2))
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
