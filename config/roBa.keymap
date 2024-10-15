@@ -132,8 +132,8 @@
             bindings = <
 &trans        &trans                  &kp LS(LG(UP_ARROW))    &trans                   &trans                         &trans  &trans              &kp LA(UP_ARROW)    &trans               &trans
 &trans        &kp LS(LG(LEFT_ARROW))  &kp LS(LG(DOWN_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans  &trans    &trans       &trans  &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(RIGHT_ARROW)  &trans
-&trans        &trans                  &trans                  &trans                   &trans  &trans    &bootloader  &trans  &trans              &trans              &trans               &trans
-&bt BT_SEL 0  &bt BT_SEL 1            &bt BT_SEL 2            &trans                   &trans  &trans    &trans       &trans                                                               &trans
+&trans        &trans                  &trans                  &trans                   &trans  &trans    &bootloader  &trans  &trans              &trans              &trans               &kp LS(LG(NUMBER_2))
+&bt BT_SEL 0  &bt BT_SEL 1            &bt BT_SEL 2            &trans                   &trans  &trans    &trans       &trans                                                               &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&inc_dec_kp LS(LG(C_AC_SCROLL_UP)) LG(C_AC_SCROLL_DOWN)>;
