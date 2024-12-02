@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: MisonoTakezo
-      url-base: https://github.com/MisonoTakezo
+    - name: kumamuk-git
+      url-base: https://github.com/kumamuk-git
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: MisonoTakezo
+      remote: kumamuk-git
       revision: main
   self:
     path: config
